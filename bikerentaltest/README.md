@@ -1,68 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Specification:
+We’d like you to develop a simple product reservation page for bike rentals. Please use the attached JSON data, and provide the user with the option to rent bikes. The test should not take more than 2 hours to complete. Requirements:
 
-## Available Scripts
+You have the option to use any technologies available to you, or simple HTML, CSS, and JS.
 
-In the project directory, you can run:
+The test should include a complete checkout process, which means users should be able to select the type of product, select the number of product, view a summary before checkout, and in the end, check out. Please think about how a checkout process usually is and make the checkout experience as smooth as possible.
 
-### `npm start`
+Users cannot check out with accessories or add-ons only - they must come with a bike selection.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The content displayed should be responsive for mobile and desktop. Be mindful of element sizes and alignment.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+You can use a UI design you are comfortable with. The design doesn’t have to be fancy but the page should be organized and easy to navigate.
 
-### `npm test`
+Provide access to the see the code and a live demo link to see the page working.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+___________________________
+Comments:
+Built the most basic product page with functionality to add products to cart and check to make sure a bike was on the order, used pure functional components to count up the quantity total.
+No styling adding, used basic semantic UI for buttons and grid layout.
+Works on mobile and desktop.
+If I was spending more time on it I would build out the cart as a seperate page in the SPA and add more styling.

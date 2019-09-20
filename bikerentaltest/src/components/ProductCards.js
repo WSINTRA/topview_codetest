@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Card, Image } from 'semantic-ui-react'
+import QuantityModal from './QuantityModal'
 
 const ProductCards = (props) => (
   
@@ -11,16 +12,15 @@ const ProductCards = (props) => (
           src={props.item.image}
         />
         <Card.Header>{props.item.name}</Card.Header>
-        <Card.Meta>${props.item.price}</Card.Meta>
+        <Card.Meta>${parseFloat(props.item.price).toFixed(2)}</Card.Meta>
         <Card.Description>
           <strong>{props.item.product_type}</strong>
         </Card.Description>
       </Card.Content>
       <Card.Content extra>
         <div className='ui two buttons'>
-          <Button basic color='green'>
-            Add to cart
-          </Button>
+        <QuantityModal item={props.item} addToCart={props.addToCart}/>
+          
           
         </div>
       </Card.Content>
