@@ -26,9 +26,9 @@ If I was spending more time on it I would build out the cart as a seperate page 
 #INSTRUCTIONS
 
 clone repo,
-	$git clone https://github.com/WSINTRA/topview_codetest.git
-	$cd topview_codetest/bikerentaltest
-run $npm install
-	$npm start
+	```$git clone https://github.com/WSINTRA/topview_codetest.git```
+	```$cd topview_codetest/bikerentaltest```
+run ```$npm install```
+	```$npm start```
 
 
