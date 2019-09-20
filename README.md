@@ -22,3 +22,13 @@ Built the most basic product page with functionality to add products to cart and
 No styling adding, used basic semantic UI for buttons and grid layout.
 Works on mobile and desktop.
 If I was spending more time on it I would build out the cart as a seperate page in the SPA and add more styling.
+------------------------
+#INSTRUCTIONS
+
+clone repo,
+	$git clone https://github.com/WSINTRA/topview_codetest.git
+	$cd topview_codetest/bikerentaltest
+run $npm install
+	$npm start
+
+
